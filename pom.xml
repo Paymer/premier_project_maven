@@ -10,9 +10,16 @@
   <name>premier_project_maven</name>
   <url>http://maven.apache.org</url>
 
+ 
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>3.8.1</junit.version> 
   </properties>
+
+  <build>
+    <finalName>premier_project_maven</finalName> 
+  </build>
 
   <dependencies>
     <dependency>
@@ -23,3 +30,4 @@
     </dependency>
   </dependencies>
 </project>
+
