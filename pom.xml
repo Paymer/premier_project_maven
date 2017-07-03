@@ -17,11 +17,23 @@
     <junit.version>3.8.1</junit.version> 
   </properties>
 
+
+
+
+
   <build>
     <finalName>premier_project_maven</finalName> 
   </build>
 
+
+
   <dependencies>
+  <dependency>
+    <groupId>com.github.lalyos</groupId>
+    <artifactId>jfiglet</artifactId>
+    <version>0.0.3</version>
+</dependency>
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
